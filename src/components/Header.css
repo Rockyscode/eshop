@@ -34,7 +34,7 @@
     height: 12px;
     padding: 10px;
     border: none;
-    width: 100px;
+    width: 100%;
 }
 
 .header__searchIcon {
@@ -42,4 +42,33 @@
     height: 22px !important;
     background-color: #ff9f00;
 
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.nav__itemLineOne {
+    font-size: 10px;
+}
+.nav__itemLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+.nav__itemBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.nav__basketCount {
+    margin: 0 10px;
 }
